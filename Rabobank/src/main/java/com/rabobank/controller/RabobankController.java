@@ -30,6 +30,7 @@ import com.rabobank.service.RabobankService;
  * 
  */
 @RestController
+@RequestMapping("/rabobank")
 public class RabobankController {
 	@Autowired
 	private RabobankService rabobankService;
